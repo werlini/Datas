@@ -1,0 +1,18 @@
+1. 下载git
+2. git config --global user.email "wzb88@qq.com"
+3. git config --global user.name "werlini"
+4. git config --get user.name
+5. git config --get user.email
+
+6. git config --global gui.encoding utf-8
+7. git config --global i18n.commit.encoding utf-8
+8. git config --global i18n.logoutputenconding utf-8
+9. export LESSCHARSET=utf-8
+10. git config --global core.quotepath false
+
+11. cd ~/.ssh  No such file or directory
+12. ssh-keygen -t rsa -C "wzb88@qq.com"  生成公钥秘钥 回车三次
+13. 复制.ssh目录下的id_rsa.pub文件到github上
+14. ssh -T git@github.com 测试github连接 回车yes
+
+15. 安装git小乌龟和语言包  一路next 
