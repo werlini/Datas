@@ -16,3 +16,4 @@
 14. ssh -T git@github.com 测试github连接 回车yes
 
 15. 安装git小乌龟和语言包  一路next 
+
